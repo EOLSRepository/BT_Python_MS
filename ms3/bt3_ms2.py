@@ -68,8 +68,8 @@ def rsp_advanced(my, count) :
         game_count = game_count + 1
     print('-- 종합적인 -->>', '컴퓨터', computer_win, '승', computer_lose, '패', muu, '무')
     print('-- 결과발표 -->>', '사용자', user_win, '승', user_lose, '패', muu, '무')
-# 가위바위보 함수 정의 끝 #
-# 가위바위보 횟수받기 #
+# 가위바위보 함수 끝 #
+# 가위바위보 횟수 입력 받기 #
 while True :
     count = int(input('가위바위보를 몇 판 진행할까요 ? : '))
     if count < 0 :
